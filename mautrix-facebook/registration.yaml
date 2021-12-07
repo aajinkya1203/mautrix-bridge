@@ -1,0 +1,13 @@
+id: facebook
+as_token: 9qTFwtqbH6xleIIyST7aILZHY5W5bt1YkUxEzvFAuQWp8VayW4jcpAKqmLBGSRQh
+hs_token: 9-BmaJaoCQ3kHGezIsaPfmaXpbn7AS7Lh6jsJjChcN4MPCgXqoWE7Ikz2ZOYZojs
+namespaces:
+    users:
+    - exclusive: true
+      regex: '@facebook_.*:localhost'
+    - exclusive: true
+      regex: '@facebookbot:localhost'
+    aliases: []
+url: http://mautrix-facebook:29319
+sender_localpart: DR5KDTlLn3UYUfORPeZxZKPNrHfXgYrjE6FQZ5A7qmeStlCPj49REn_Lf1WG0N6p
+rate_limited: false
